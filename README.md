@@ -4,14 +4,14 @@
 
 Filtert aus [Openstreetmaps .osm.pbf](http://download.geofabrik.de/europe/germany.html) alle Straßen (highways) heraus, welche einen [smoothness tag](http://taginfo.openstreetmap.org/keys/smoothness) haben.
 
-![Deutschlands Straßen mit Smoothness-Tag](https://raw.github.com/balzer82/OSMhighwaysmoothness/master/germany-smoothnesstag.png)
+![Deutschlands Straßen mit Smoothness-Tag](https://raw.github.com/balzer82/OSMhighwaysmoothness/master/deutschland/germany-smoothnesstag.png)
 
 
 ## Wie benutzt man es?
 
 1. gewünschte Karte im .osm.pbf Format [downloaden](http://download.geofabrik.de/europe/germany.html)
 2. im Terminal `./osm-edit.sh` eingeben
-3. im Terminal `python OSMStreetQuality.py eingeben`
+3. im Terminal `python OSMStreetQuality.py` eingeben
 
 ## Was tut es?
 
